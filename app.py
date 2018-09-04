@@ -14,8 +14,10 @@ class DemoFrame( wx.Frame ):
         book = wx.Notebook( panel, id=wx.ID_ANY )
         page1 = BookPage(book)
         page2 = BookPage(book)
+        page3 = BookPage(book)
         book.AddPage( page1, u'页面1' )
         book.AddPage( page2, u'页面2' )
+        book.AddPage( page3, u'页面2' )
         box.Add( book, 1, wx.EXPAND|wx.ALL, 3 )
 
         panel.SetSizer( box )

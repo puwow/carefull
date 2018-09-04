@@ -19,6 +19,7 @@ class DemoFrame( wx.Frame ):
         book.AddPage( page2, u'页面2' )
         book.AddPage( page3, u'页面dev' )
         box.Add( book, 1, wx.EXPAND|wx.ALL, 3 )
+        book.Addpage( page4, u'页面master')
 
         panel.SetSizer( box )
 
